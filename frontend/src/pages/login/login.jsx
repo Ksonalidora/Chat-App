@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Login = () => {
 	// const [username, setUsername] = useState("");
 	// const [password, setPassword] = useState("");
@@ -43,9 +44,9 @@ const Login = () => {
 							// onCh ange={(e) => setPassword(e.target.value)}
 						/>
 					</div>
-					<a href='#' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block'>
+					<Link to='/signup' className='text-sm  hover:underline hover:text-blue-600 mt-2 inline-block'>
 						{"Don't"} have an account?
- </a>
+                   </Link>
 
 					<div>
 						<button className='btn btn-block btn-sm mt-2'>Login</button>
