@@ -10,7 +10,7 @@ const Conversations = () => {
 			<Conversation />
 			<Conversation />
     </div>
-  )
-}
+  );
+};
 
-export default Conversations
+export default Conversations;
